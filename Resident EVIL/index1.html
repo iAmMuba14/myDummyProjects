@@ -1,0 +1,187 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resident Evil 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            position: relative;
+            text-align: center;
+        }
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: url('background-image.jpg') no-repeat center center/cover;
+            opacity: 0.5;
+        }
+
+        .big-number {
+            font-size: 15rem;
+            color: red;
+            font-weight: bold;
+            opacity: 0.8;
+        }
+
+        .main-text {
+            margin-top: -50px;
+        }
+
+        .main-text h1 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .main-text p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+
+        .trailers {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .trailer {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 8px;
+            width: 45%;
+            text-align: left;
+        }
+
+        .trailer img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .trailer p {
+            margin-top: 10px;
+            font-size: 1rem;
+        }
+
+        .navigation {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .navigation a {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2rem;
+            transition: 0.3s;
+        }
+
+        .navigation a:hover {
+            background: red;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="background"></div>
+        <div class="big-number">2</div>
+        <div class="main-text">
+            <h1>Resident Evil 2 is back and better than ever</h1>
+            <p>Over 4 Million Copies Shipped Worldwide!</p>
+        </div>
+
+        <div class="trailers">
+            <div class="trailer">
+                <img src="leon-gameplay.jpg" alt="Leon Gameplay">
+                <p>Leon Gameplay</p>
+            </div>
+            <div class="trailer">
+                <img src="classic-costumes.jpg" alt="Classic Costumes">
+                <p>Classic Costumes</p>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <a href="#">🔗</a>
+            <a href="#">📷</a>
+            <a href="#">🎥</a>
+        </div>
+
+        <footer>
+            &copy; 2018 CAPCOM
+        </footer>
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transparent Text with Image</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000; /* Background color to contrast with text */
+        }
+
+        .transparent-text {
+            font-size: 5rem; /* Adjust size of the text */
+            font-weight: bold;
+            text-transform: uppercase;
+            background: url("images/green.jpg") no-repeat center center; /* Replace 'your-image.jpg' with your image path */
+            background-size: cover;
+            -webkit-background-clip: text; /* Clip the background to the text */
+            -webkit-text-fill-color: transparent; /* Make the text itself transparent */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="transparent-text">Transparent Text</div>
+</body>
+</html>
