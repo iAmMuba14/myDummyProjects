@@ -1,0 +1,180 @@
+* {
+    /* padding: 5% 7%; */
+    margin: 0;
+    color: aliceblue;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+body {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 4% 2% 4%;
+}
+
+.logo {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+.logo .circle {
+    position: relative;
+    border: 2px solid rgb(202, 82, 82);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    right: 5px;
+}
+.navbar {
+    position: absolute;
+    /* border: 2px solid red; */
+    display: flex;
+    padding: 0 19px;
+    width: 90%;
+    height: 60px;
+    /* top: 15px; */
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    background: rgba(27, 27, 27, 0.719);
+}
+
+.nav-menu {
+    /* border: 2px solid red; */
+    display: flex;
+    width: px;
+    height: 100%;
+    padding: 0;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.nav-menu .nav-menu-link a {
+    margin-right: 60px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+    font-family: poppins;
+}
+
+.nav-menu .nav-menu-link a:hover {
+    color: rgba(202, 82, 82, 0.774);;
+}
+
+.nav-menu button {
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+    background-color: transparent;
+    color: aliceblue;
+    width: 115px;
+    height: 30px;
+    font-weight: bold;
+    font-family: poppins;
+    cursor: pointer;
+}
+
+.nav-menu button:hover {
+    border: 2px solid rgba(202, 82, 82, 0.774);
+    transform: scale(1.1);
+}
+
+.content {
+    position: absolute;
+    color: aliceblue;
+    top: 30%;
+}
+
+small {
+    font-size: 30px;
+}
+
+h1 {
+    margin: 5px 0 10px;
+    font-size: 110px;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: poppins;
+}
+
+.content button {
+    border: 3px solid white;
+    background-color: transparent;
+    color: aliceblue;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    padding-right: 40px;
+    font-family: poppins;
+    font-weight: 550;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.content button:hover {
+    /* width: 155px; */
+    /* height: 45px; */
+    transform: scale(1.1);
+    border: 3px solid rgba(202, 82, 82, 0.774);
+}
+
+.btn2 {
+    display: flex;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    position: relative;
+    width: 30px;
+    /* border: 2px solid red; */
+    /* border-left: none; */
+    border-radius: 50%;
+    right: 35px;
+    height: 30px;
+    top: 3px;
+}
+
+
+footer {
+    position: absolute;
+    display: flex;
+    /* border: 2px solid red; */
+    bottom: 20px;
+    width: 92%;
+    height: 143px;
+    align-items: center;
+}
+
+.social-links {
+    position: absolute;
+    /* background-color: aliceblue; */
+    background: linear-gradient(#dee2b4, #eee4e4);
+    display: flex;
+    height: 20px;
+    width: 140px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+    bottom: 15px;
+}
+
+.social-links img {
+    cursor: pointer;
+}
+
+
+.Eight {
+    position: absolute;
+    /* border: 2px solid red; */
+    right: 0px;
+}
