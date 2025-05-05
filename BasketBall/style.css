@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    color: aliceblue;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(fonts/butchsundance.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(images/domino-studio-164_6wVEHfI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    position: absolute;
+    width: 95%;
+    height: 7%;
+    align-items: center;
+    top: 3%;
+    left: 5%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.logo {
+    position: relative;
+    /* border: 2px solid blue; */
+    left: 5px;
+    font-size: 35px;
+}
+
+.nav1{
+    /* border: 2px solid yellow; */
+    width: 45%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    /* border: 2px solid red; */
+    position: relative;
+    right: 5px;
+}
+
+.menu a {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    font-weight: 800;
+    font-size: 1.1em;
+}
+
+.input-box input {
+    width: 240px;
+    height: 25px;
+    margin-right: 15px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid aliceblue;
+    border-radius: 2px;
+    color: aliceblue;
+}
+
+.input-box label {
+    position: relative;
+    right: 245px;
+
+}
+.nav2 {
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+}
+
+.nav2-items {
+    position: relative;
+    display: flex;
+    left: 25px;
+}
+
+.nav2 img {
+    margin-right: 25px;
+}
+
+.content {
+    width: 50%;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid yellow; */
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.high {
+    position: relative;
+    left: 15%;
+
+}
+
+h1 {
+    margin: 5px 0 20px;
+}
+
+.content button {
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid rgb(235, 229, 229);
+    position: absolute;
+    top: 160px;
+    background: transparent;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.bottom-bar {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 50px;
+    bottom: 2px;
+    left: 2%;
+    /* border: 2px solid salmon; */
+}
+
+.bottom-items {
+    width: 100%;
+    height: 80%;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    left: 10px;
+}
+
+.bottom-items .item-box1 {
+    display: flex;
+    left: 10px;
+    align-items: center;
+}
+
+.bottom-items .item-box1 .address-updates p {
+    /* border: 2px solid red; */
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom-items .item-box1 .address-updates {
+    position: absolute;
+    width: 22%;
+    /* border: 2px solid orange; */
+    border-bottom: 2px solid rgb(248, 246, 246);
+    display: flex;
+    left: 45px;
+    justify-content: space-between;
+}
+
+
+.bottom-items .item-box2 {
+    position: absolute;
+    display: flex;
+    right: 1px;
+    align-items: center;
+    /* justify-content: center; */
+    border: 2px solid rgb(245, 242, 241);
+    border-radius: 25px;
+    color: aliceblue;
+    width: 80px;
+    padding: 4px  10px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.bottom-items .item-box2:hover {
+    background-color: rgb(153, 136, 136);
+    color: red;
+}
+
+/* .bottom-items .item-box2 img {
+    position: absolute;
+   
+}
+
+.bottom-items .item-box2 p {
+    position: relative;
+
+} */
+
+
+.side-bar {
+    position: absolute;
+    width: 5%;
+    top: 10%;
+    height: 80vh;
+    right: 0px;
+    /* border: 2px solid saddlebrown; */
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.side-bar .number {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 40%;
+    height: 150px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    left: 15px;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+.side-bar .number a {
+    text-decoration: none;
+}
+
+.side-bar .number a:hover {
+    font-size: 40px;
+}
+
+
+.content h1 .high {
+    font-family: "Oleo Script", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.content h1 {
+    font-family: "Oleo Script", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
