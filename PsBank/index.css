@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: poppins-light;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins-light;
+    src: url(fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(fonts/Poppins-SemiBold.ttf);
+}
+
+body{
+    background-color: #0F0E14
+}
+
+header{
+    /* width: 80%; */
+    /* margin: 4em; */
+    padding: 1% 6%;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+
+    .head-container{
+        display: flex;
+        padding: 1% 0%;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+    }
+    
+    .logo {
+        margin: 0 1em;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+        font-family: poppins-bold;
+    }
+
+    li{
+        padding: .9em 3em;
+    }
+
+    .navbar{
+        position: relative;
+        /* border: 2px solid red; */
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        left: 50px;
+        background:#171A21;
+        cursor: pointer;
+        
+        .active-nav{
+            /* border: 2px solid blue; */
+            border-radius: 50px;
+            background-color: #fff;
+
+            a {
+                color: rgb(0, 0, 0);
+            }
+        }
+
+        .nav-item:hover {
+            border-radius: 50px;
+            background:rgb(45, 44, 50);
+
+            a{
+                color: rgba(250, 250, 250, 0.685);
+            }
+        }
+    }
+
+    .nav-btn {
+        /* border: 2px solid red; */
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        cursor: pointer;
+
+       #active{
+            border-radius: 50px;
+            background-color: #fff;
+
+            a {
+                color: rgb(0, 0, 0);
+            }
+       }
+
+       .button:hover{
+        border-radius: 50px;
+            background: rgb(45, 44, 50);
+
+            a{
+                color: rgba(250, 250, 250, 0.685);
+            }
+       }
+    }
+}
+
+.contents {
+    position: absolute;
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    /* justify-content: center; */
+    left: 50%;
+    transform: translateX(-50%);
+
+    label{
+        /* border: 2px solid; */
+        padding: 5px 10px;
+        border-radius: 20px;
+        background: rgb(0, 0, 16);
+        position: relative;
+        /* width: max-content;
+        height: max-content; */
+
+        a {
+            background: linear-gradient(to right, rgba(56, 44, 109, 0.829), rgba(204, 47, 47, 0.514));
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        &::before{
+            content: "";
+            width: 100%;
+            height: 100%;
+            background-image: conic-gradient(from 95deg, transparent 40%, red 30%, rgba(0, 0, 255, 0.356));
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            translate: -50% -50%;
+            padding: 3px;
+            border-radius: 20px;
+            z-index: -5;
+        }
+    }
+
+    h1{
+        font-size: 62px;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    h3{
+        font-size: 35px;
+        margin-bottom: 15px;
+        font-weight: 100;
+        background: linear-gradient(rgba(201, 199, 207, 0.829), rgba(77, 70, 70, 0.514));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+    }
+
+    p{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .button{
+        /* border: 1px solid blue; */
+        padding: 12px 34px;
+        font-size: 20px;
+        border-radius: 30px;
+        background: #fff;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
